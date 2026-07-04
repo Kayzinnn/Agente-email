@@ -13,7 +13,7 @@ cria rascunhos para você revisar antes de enviar.
 4. (Opcional) Sugere rascunhos de resposta para os e-mails marcados como
    pendência
 
-## Passo 1 — Ativar a API do Gmail
+## Passo 1: Ativar a API do Gmail
 
 1. Acesse https://console.cloud.google.com/
 2. Crie um projeto novo (ou use um existente)
@@ -37,7 +37,7 @@ cria rascunhos para você revisar antes de enviar.
 > autoriza o acesso pelo navegador na primeira execução — a aplicação não
 > lida com sua senha ou login do Google em nenhum momento.
 
-## Passo 2 — Criar ambiente virtual e instalar dependências
+## Passo 2: Criar ambiente virtual e instalar dependências
 
 ```bash
 python -m venv venv
@@ -49,7 +49,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Passo 3 — Configurar a chave da Anthropic (opcional, para resumo e rascunhos)
+## Passo 3: Configurar a chave da Anthropic (opcional, para resumo e rascunhos)
 
 ```bash
 export ANTHROPIC_API_KEY="sua-chave-aqui"      # macOS/Linux

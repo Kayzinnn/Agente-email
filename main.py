@@ -53,7 +53,7 @@ CATEGORIAS = {
     "Propagandas": {
         "assunto_contem": [
             "promoção", "promocao", "desconto", "oferta", "cupom",
-            "black friday", "sale", "grátis", "gratis", "%",
+            "black friday", "sale", "grátis", "gratis", "%","itens","pedido","garanta","compras","compre","frete","entrega","loja","venda","produto","novidade","lançamento","lancamento"
         ],
         "remetente_contem": [
             "newsletter", "marketing", "no-reply", "noreply", "promo",
@@ -69,7 +69,7 @@ PALAVRAS_PENDENCIA = [
     "gentileza confirmar", "até quando",
 ]
 
-DIAS_PADRAO = 7
+DIAS_PADRAO = 100
 # ------------------------------------------------------------------
 # AUTENTICAÇÃO
 # ------------------------------------------------------------------
